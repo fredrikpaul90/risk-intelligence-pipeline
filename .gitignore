@@ -1,0 +1,46 @@
+# Source PDFs (large binaries, not tracked)
+annual_reports/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+.Python
+build/
+dist/
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+!.vscode/settings.json
+
+# Pipeline outputs / caches (generated, not source)
+output/
+outputs/
+*.log
+.cache/
+
+# Local planning notes
+TODO.md

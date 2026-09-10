@@ -1,0 +1,15 @@
+{
+  "risks": [
+    {
+      "title": "Project execution",
+      "description": "Project execution challenges can delay delivery, increase costs, and erode margins on complex projects.",
+      "category": "financial",
+      "source": {
+        "section": "Risk management",
+        "page": 51
+      },
+      "mitigation": null,
+      "evidence_quote": "Challenges in project execution can lead to delays in delivery, cost overruns, and margin erosion."
+    }
+  ]
+}

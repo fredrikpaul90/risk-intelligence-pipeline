@@ -1,0 +1,54 @@
+{
+  "required_risks": [
+    {
+      "title": "Geopolitics and regulatory framework",
+      "page": 51,
+      "category": "regulatory"
+    },
+    {
+      "title": "Project execution",
+      "page": 51,
+      "category": "operational"
+    },
+    {
+      "title": "Cyber attacks",
+      "page": 51,
+      "category": "cyber"
+    },
+    {
+      "title": "Carbon taxes and tariffs",
+      "page": 71,
+      "category": "financial"
+    },
+    {
+      "title": "Fines related to forced or child labour",
+      "page": 73,
+      "category": "regulatory"
+    },
+    {
+      "title": "Cost implication of injuries in own workforce",
+      "page": 73,
+      "category": "people"
+    },
+    {
+      "title": "Cost implications of injuries to contractors and sub-contractors",
+      "page": 73,
+      "category": "people"
+    },
+    {
+      "title": "Insufficient market conditions",
+      "page": 74,
+      "category": "market"
+    },
+    {
+      "title": "Cyber security risks",
+      "page": 74,
+      "category": "cyber"
+    },
+    {
+      "title": "Risk of corruption and bribery",
+      "page": 74,
+      "category": "regulatory"
+    }
+  ]
+}

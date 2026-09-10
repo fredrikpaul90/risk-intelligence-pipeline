@@ -1,0 +1,37 @@
+[project]
+name = "risk-intelligence-pipeline"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Fredrik Paul", email = "fredrikpaul@outlook.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "google-cloud-documentai>=3.9.0",
+    "google-genai>=1.0.0",
+    "pydantic>=2.13.5",
+    "python-dotenv>=1.2.3",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.format]
+exclude = ["*.md"]
+
+[tool.ruff.lint]
+# E/W pycodestyle, F pyflakes, I import sorting, UP pyupgrade (enforces `X | None`),
+# B bugbear.
+select = ["E", "W", "F", "I", "UP", "B"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.1.1",
+    "ruff>=0.16.6",
+]
