@@ -1,0 +1,114 @@
+{
+  "risks": [
+    {
+      "title": "Geopolitics and regulatory framework",
+      "description": "Vestas is exposed to shifting geopolitical tensions, conflicts, trade tensions, and assertive industrial policies that introduce tariffs, sanctions, and export controls. These dynamics complicate global operations, disrupt supply chains, and create uncertainty across global markets.",
+      "category": "regulatory",
+      "source": {
+        "section": "Risk management",
+        "page": 51
+      },
+      "mitigation": "We manage geopolitical risks by continuously monitoring global developments and implementing appropriate mitigations. By maintaining a global and regionalised manufacturing footprint, Vestas can effectively respond to geopolitical shifts and regulatory changes.",
+      "evidence_quote": "In 2025, Vestas continued to navigate significant challenges arising from shifting geopolitical tensions across the world."
+    },
+    {
+      "title": "Project execution",
+      "description": "Project execution involves delivering complex onshore and offshore projects within specified parameters relating to quality, cost, and timeline. Execution is affected by production capacity ramp-up delays, quality control issues during scaling, and supply chain disruptions.",
+      "category": "operational",
+      "source": {
+        "section": "Risk management",
+        "page": 51
+      },
+      "mitigation": "We mitigate execution risks through project governance, enhanced planning functions, and continuous alignment between commercial and delivery teams. We invest in scalable manufacturing capacity and maintain close coordination with suppliers to secure timely component availability.",
+      "evidence_quote": "Project execution at Vestas involves delivering complex onshore and offshore projects within specified parameters relating to quality, cost, and timeline."
+    },
+    {
+      "title": "Cyber attacks",
+      "description": "Vestas' digital and other critical assets are exposed to cyber attacks from evolving threat actors, including geopolitical actors and the cyber-criminal industry. A successful cyber attack on energy solutions and infrastructures might result in significant economic loss and reputational damage.",
+      "category": "cyber",
+      "source": {
+        "section": "Risk management",
+        "page": 51
+      },
+      "mitigation": "As a global manufacturer and key contributor to critical infrastructure, Vestas is required to continuously address evolving cyber risks, both to our company and to the customers we serve. We are developing cyber security services aimed at helping our customers navigate cyber risks effectively, fulfil industry requirements and standards, and uphold their responsibilities.",
+      "evidence_quote": "Vestas' digital and other critical assets are exposed to cyber attacks. A cyber attack may have dual implications for both Vestas as a company and for the societies that our energy solutions serve."
+    },
+    {
+      "title": "Carbon taxes and tariffs",
+      "description": "High carbon taxes and tariffs increase the price of greenhouse gas intense materials such as steel, raising the overall cost to produce wind turbines.",
+      "category": "financial",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 71
+      },
+      "mitigation": null,
+      "evidence_quote": "High carbon taxes and tariffs increase the price of GHG intense materials such as steel, increasing the overall cost to produce wind turbines."
+    },
+    {
+      "title": "Cost implication of injuries in own workforce",
+      "description": "Potential workplace injuries can lead to operational delays, lost work hours, and compensation costs, posing a financial risk.",
+      "category": "people",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 73
+      },
+      "mitigation": null,
+      "evidence_quote": "Potential injuries leading to delays, lost work hours and compensation costs pose a financial risk."
+    },
+    {
+      "title": "Cost implications of injuries to contractors and sub-contractors",
+      "description": "Potential injuries to value chain workers can lead to operational delays, lost work hours, and compensation costs, posing a risk.",
+      "category": "people",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 73
+      },
+      "mitigation": null,
+      "evidence_quote": "Potential injuries to value chain workers leading to delays, lost work hours and compensation costs pose a risk."
+    },
+    {
+      "title": "Fines related to forced or child labour",
+      "description": "Vestas' global network of suppliers combined with the risk of forced and child labour constitutes a potential risk of incurring regulatory fines.",
+      "category": "regulatory",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 73
+      },
+      "mitigation": null,
+      "evidence_quote": "Vestas' global network of suppliers combined with the risk of fines related to child and forced labour constitute a potential risk."
+    },
+    {
+      "title": "Insufficient market conditions",
+      "description": "Inadequate grid expansion, ineffective auction design, and permit delays could increase costs, hinder investments, and reduce the viability of wind deployment.",
+      "category": "market",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 74
+      },
+      "mitigation": null,
+      "evidence_quote": "Inadequate grid expansion, ineffective auction design and permit delays could increase costs, hinder investments, and reduce the viability of wind deployment."
+    },
+    {
+      "title": "Cyber security risks",
+      "description": "Cyber attacks might disrupt business operations, expose intellectual property, or cause legal liability for the company.",
+      "category": "cyber",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 74
+      },
+      "mitigation": null,
+      "evidence_quote": "Cyber attacks might disrupt business operations, expose intellectual property, or cause legal liability."
+    },
+    {
+      "title": "Risk of corruption and bribery",
+      "description": "Vestas' global presence presents an increased risk of exposure to corruption and bribery issues within its operations.",
+      "category": "regulatory",
+      "source": {
+        "section": "Material impacts, risks, and opportunities",
+        "page": 74
+      },
+      "mitigation": null,
+      "evidence_quote": "Vestas' global presence presents an increased risk of exposure to corruption and bribery."
+    }
+  ]
+}

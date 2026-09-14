@@ -21,6 +21,7 @@ Single source of truth for project conventions. Keep up to date as the pipeline 
 
 ```
 annual_reports/   # source PDFs — gitignored, never committed (large binaries)
+output/           # generated OCR and extraction caches
 src/              # pipeline code: Document AI (PDF → page text) → extract (LLM → structured risks) → schema (Pydantic models)
 eval/             # golden set (hand-labeled expected risks) + evaluator(s)
 tests/            # unit tests

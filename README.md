@@ -14,7 +14,7 @@ annual_reports/   # source PDFs (gitignored, not tracked)
 src/              # pipeline code (Document AI, extraction, Pydantic models)
 eval/             # golden set + offline evaluator
 tests/            # unit tests and cache/evaluation fixtures
-output/           # generated OCR and extraction caches (gitignored)
+output/           # generated OCR and extraction caches
 PLAN.md           # product context and optimization target
 DESIGN.md         # architecture and implementation trade-offs
 STRETCH.md        # deferred roadmap
@@ -38,7 +38,7 @@ Create an OCR processor in Google Cloud Console under **Document AI** > **Proces
 
 ### Parse the PDF
 
-Parse the already-trimmed PDF once and cache its text locally. `output/` is gitignored, so this does not create a tracked artifact or further Document AI costs when reused.
+Parse the already-trimmed PDF once and cache its text locally. This avoids further Document AI costs when the cached result is reused.
 
 ```bash
 uv run python -m src.risk_intelligence_pipeline.document_ai \
@@ -50,7 +50,7 @@ The command writes one JSON object containing named report sections, original pr
 
 ### Extract Risks
 
-Extract risks from a cached Document AI result. This calls Gemini once per parsed section and saves the validated JSON under gitignored `output/`. For demo stability, extraction defaults to `GEMINI_TEMPERATURE=0` and `GEMINI_SEED=0`; set those in `.env` only if you intentionally want different sampling behaviour.
+Extract risks from a cached Document AI result. This calls Gemini once per parsed section and saves the validated JSON under `output/`. For demo stability, extraction defaults to `GEMINI_TEMPERATURE=0` and `GEMINI_SEED=0`; set those in `.env` only if you intentionally want different sampling behaviour.
 
 ```bash
 uv run python -m src.risk_intelligence_pipeline.extract \

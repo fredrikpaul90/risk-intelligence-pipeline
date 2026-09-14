@@ -37,8 +37,6 @@ htmlcov/
 !.vscode/settings.json
 
 # Pipeline outputs / caches (generated, not source)
-output/
-outputs/
 *.log
 .cache/
 
